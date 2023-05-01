@@ -1,0 +1,34 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  text-shadow:
+    8vw 8vw 5vmax gold,
+    5vw 5vh 3vmax blueviolet,
+    3vw 3vh 1vmax blueviolet,
+    -3vw -3vh 1vmax blueviolet,
+    -5vw -5vh 3vmax blueviolet,
+    -8vw -8vw 5vmax gold;
+  background: #ddd;
+  color: #100;
+}
+
+:any-link {
+  background: indigo;
+  color: springgreen;
+}
+
+:focus {
+  outline-color: indigo;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+mark {
+  background: hotpink;
+  color: #100;
+}
